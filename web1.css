@@ -1,0 +1,83 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Times New Roman';
+}
+header{
+    background-color: rgb(8, 8, 8);
+    background-image: url(./images/depositphotos_50114373-stock-photo-food-background-removebg-preview.png);
+    height: 90vh;
+    width: 150vh;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    color: aliceblue;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: rgb(245, 97, 97);
+    color: aqua;
+}
+ul li :active a{
+    background-color: aquamarine;
+    color: blueviolet;
+}
+.box{
+    width: 100%;
+    height: 80px;
+    background-color:rgba(93, 89, 89, 0.142);
+
+}
+.title
+{
+    position:absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+
+}
+.title h1{
+    color: white;
+    font-size: 40px;
+
+}
+.button
+{
+    position: absolute;
+    top: 120%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+.btn
+{
+    padding: 8px 10px;
+    border: 1px solid rgb(105, 101, 101);
+    text-decoration: none;
+    color: rgb(237, 218, 218)
+}
+.logo img
+{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.btn a:hover{
+    background-color: rgb(245, 97, 97);
+    color: aqua;
+}
